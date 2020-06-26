@@ -55,7 +55,7 @@ body, html {
 }
 
 .contact {
-  height: 100%;
+  height: 90%;
   padding: 50px;
   text-align: center;
   background-color: #0d0d0d;
@@ -67,4 +67,22 @@ h2 {
 
 a {
   color: white;
+}
+
+.contactbar {
+	position: relative;
+  background-color: #090909;
+	top: 40%;
+  margin: 30px;
+  padding: 30px;
+  width: calc(100% - 120px);
+  border-radius: 10px;
+	text-align: center;
+  box-shadow: 0 0px 30px rgba(173, 216, 230, 0.2), 0 10px 10px black;
+}
+
+.contactbar a {
+  background-color: #111111;
+  padding: 10px;
+  border-radius: 10px;
 }
